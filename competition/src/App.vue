@@ -23,7 +23,7 @@ li {
   list-style: none;
 }
 .el-container {
-  height: 100%;
+  /*height: 100%;*/
   background-image: url("./assets/image/texture.png");
 }
 .el-header {

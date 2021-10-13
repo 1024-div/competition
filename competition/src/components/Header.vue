@@ -16,7 +16,7 @@
             <router-link to="Home">网站首页</router-link>
           </el-col>
           <el-col :span="6">
-            <router-link to="/CompetitionList">比赛分类</router-link>
+            <router-link to="/category">比赛分类</router-link>
           </el-col>
           <el-col :span="6">
             <router-link to="Home">志愿者征集</router-link>

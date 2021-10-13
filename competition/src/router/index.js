@@ -25,6 +25,11 @@ const routes = [
     component: () => import('@/views/User/Chat')
   },
   {
+    path: '/category',
+    name: 'Category',
+    component: () => import('@/views/User/Category')
+  },
+  {
     path: '/404',
     name: '404',
     component: () => import('@/views/Error/404')
