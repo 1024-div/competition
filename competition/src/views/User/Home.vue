@@ -58,7 +58,23 @@
       </el-row>
 <!--      主内容-->
       <el-card class="content">
+        <el-row>
+          <el-col :span="18">
+            <el-card>
+              <el-tabs v-model="activeName" @tab-click="handleClick">
+                <el-tab-pane label="最新" name="first">
+                  <CompetitionCard ></CompetitionCard>
+                  <CompetitionCard ></CompetitionCard>
+                </el-tab-pane>
+                <el-tab-pane label="热榜" name="second">Config</el-tab-pane>
+              </el-tabs>
+            </el-card>
+          </el-col>
+<!--          侧边栏-->
+          <el-col :span="5" :offset="1" style="background-color: silver">
 
+          </el-col>
+        </el-row>
       </el-card>
     </el-main>
     <el-footer>Footer</el-footer>
@@ -67,38 +83,30 @@
 </template>
 
 <script>
+import CompetitionCard from "../../components/CompetitionCard";
 import Header from "../../components/Header";
 export default {
   name: "Home",
+  data(){
+    return {
+      activeName: 'first',
+    }
+  },
   components: {
-    Header
+    Header,
+    CompetitionCard
   }
 }
 </script>
 
 <style scoped>
-.el-container {
-  /*background-color: #7a7374;*/
-  background-image: url("../../assets/image/texture.png");
-}
-.el-header {
-  background-color: #FFFFFF;
-  box-shadow: 0 -4px 7px rgb(0 0 0);
-}
-.el-main {
-  width: 1380px;
-  margin: 0 auto;
-  padding: 20px 0;
-  /*background-color: #409EFF;*/
-}
-.el-carousel {
-  /*width: 900px;*/
-  /*float: right;*/
-}
 .content {
   width: 100%;
   height: 15222px;
   border: none;
   margin-top: 20px;
+  padding: 0 0;
+  /*background: none;*/
+  box-shadow: none;
 }
 </style>

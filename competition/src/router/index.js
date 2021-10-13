@@ -15,6 +15,16 @@ const routes = [
     component: () => import('@/views/User/Home')
   },
   {
+    path: '/favlist',
+    name: 'FavList',
+    component: () => import('@/views/User/FavList')
+  },
+  {
+    path: '/chat',
+    name: 'Chat',
+    component: () => import('@/views/User/Chat')
+  },
+  {
     path: '/404',
     name: '404',
     component: () => import('@/views/Error/404')

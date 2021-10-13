@@ -42,10 +42,10 @@
       <el-col :span="5" :offset="2">
         <el-row :gutter="5">
           <el-col :span="8">
-            <router-link to="/FavList">我的关注</router-link>
+            <router-link to="/favlist">我的收藏</router-link>
           </el-col>
           <el-col :span="8">
-            <router-link to="/Message">
+            <router-link to="/chat">
               <el-badge is-dot class="item">
                 消息提醒
               </el-badge>
@@ -96,9 +96,6 @@ export default {
     text-decoration: none;
     color: black;
   }
-  li {
-    list-style: none;
-  }
   .header a {
     display: block;
     height: 40px;
@@ -113,9 +110,6 @@ export default {
     line-height: 30px;
     font-size: 30px;
     font-weight: bold;
-  }
-  .el-container {
-    height: 100%;
   }
   .el-dropdown-item {
     background: #409EFF;

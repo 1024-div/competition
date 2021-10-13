@@ -1,0 +1,100 @@
+{
+  "id": "2723242",
+  "name": "competition",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "比赛系统-用户端",
+  "glyphs": [
+    {
+      "icon_id": "783452",
+      "name": "积分",
+      "font_class": "icon",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "201556",
+      "name": "查看",
+      "font_class": "chakan",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "6446182",
+      "name": "加关注",
+      "font_class": "tianchongxing-",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "6536069",
+      "name": "操作-报名登记",
+      "font_class": "cz-bmdj",
+      "unicode": "e72c",
+      "unicode_decimal": 59180
+    },
+    {
+      "icon_id": "9974409",
+      "name": "关注-未关注",
+      "font_class": "guanzhu-weiguanzhu",
+      "unicode": "e703",
+      "unicode_decimal": 59139
+    },
+    {
+      "icon_id": "11938123",
+      "name": "已报名",
+      "font_class": "yibaoming",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "4186850",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "1435251",
+      "name": "个人中心",
+      "font_class": "yonghudianji",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "20853368",
+      "name": "注销",
+      "font_class": "zhuxiao",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "2077822",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "17607037",
+      "name": "警告",
+      "font_class": "jinggao",
+      "unicode": "e6c6",
+      "unicode_decimal": 59078
+    },
+    {
+      "icon_id": "14167162",
+      "name": "显示",
+      "font_class": "xianshi",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "14167163",
+      "name": "隐藏",
+      "font_class": "yincang",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    }
+  ]
+}
